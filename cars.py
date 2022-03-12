@@ -80,7 +80,7 @@ def main(argv):
     summary = process_data(data)
 
     # TODO: turn this into a PDF report
-    report_file = "/tmp/cars.pdf"
+    report_file = "cars.pdf"
     report_title = "Sales summary for last month"
     report_summary = "<br/>".join(summary) + "<br/>"
     report_table = cars_dict_to_table(data)
